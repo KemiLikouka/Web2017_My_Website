@@ -1,0 +1,132 @@
+body {
+  background-color: #fff7ed;
+  color: #36a8c1;
+  margin: 0;
+}
+
+section {
+  max-width: 46em;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #36a8c1;
+  color: #fff7ed;
+  padding: 2em;
+  padding-bottom: 2.5em;
+  position: relative;
+  }
+
+footer {
+  background-color: #36a8c1;
+  color: #fff7ed;
+  padding: 2em;
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 1.5em;
+
+}
+
+.linklist {
+  list-style-type: none;
+}
+
+.linklist li {
+  margin: 0.5em;
+}
+
+.linklist a {
+  color: #fff;
+}
+
+header::after {
+  content: " ";
+  display: block;
+  width: 90px;
+  height: 90px;
+  position: absolute;left: 50%;
+  transform: translateX(-50%) translateY(-30%) rotate(45deg);
+  background-color: #36a8c1;
+}
+
+.image {
+  background-image: url(final.jpg);
+  min-height: 60vh;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.nastyadvert {
+  background-image: url(Capture.jpg);
+  min-height: 80vh;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.nastyadvert h1 {
+    font-family: 'Baloo Chettan', cursive;
+  color: #fff7ed;
+  text-align: center;
+  text-shadow: 5px 5px 30px #000000;
+  font-size: 5em;
+}
+
+.nastyadvert p {
+font-size: 2em;
+font-family: 'Covered By Your Grace', cursive;
+text-align: center;
+color: #fff7ed;
+text-shadow: 2px 2px 10px #000000;
+}
+
+.nastyadvert .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.mywork ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mywork li {
+width: 25%;
+border: #fff7ed 1em solid;
+}
+
+.mywork img {
+width: 100%;
+}
+
+.myothersworks ul {
+  list-style-type: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1600px;
+}
+
+.panel-box {
+    border-radius: 3px;
+    padding: 1rem;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0rem 0rem 1.625rem;
+
+}
+
+.homepage-bar {
+
+        color: #fff;
+        padding: 1rem;
+        position: relative;
+      }
